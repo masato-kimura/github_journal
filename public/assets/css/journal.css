@@ -1,0 +1,103 @@
+@CHARSET "UTF-8";
+
+html {
+  font-family: "Roboto",sans-serif;
+}
+
+/* IE */
+@font-face {
+  font-family: Sickness;
+  src: url("./../fonts/Sickness.eot") format('opentype');
+}
+@font-face {
+  font-family: Arial Black;
+  src: url("./../fonts/ArialBlack.eot") format('opentype');
+}
+/* other browser */
+@font-face {
+  font-family: 'Sickness';
+  src: url("./../fonts/Sickness.woff") format("woff"),
+       url("./../fonts/Sickness.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Arial Black';
+  src: url("./../fonts/ArialBlack.woff") format("woff"),
+       url("./../fonts/ArialBlack.ttf") format("truetype");
+}
+.btn-success {
+  background-color: #26a69a;
+  border-color: #26a69a;
+}
+.btn-success:hover {
+  background-color: #1a7873;
+  border-color: #1a7873;
+}
+.navbar-inverse {
+/*  background: #235b29; */
+  border: 0px;
+}
+.title_app {
+  margin: 5px 0px 2px 0px; padding: 0px;
+  font-size: 10px;
+}
+.title_logo_ja {
+  display: inline-block;
+  font-size: 10px;
+  margin-left: 3px;
+  vertical-align: text-bottom;
+}
+.title_page {
+  margin: 2px 0px 11px 0px;
+  padding-top: 0px;
+}
+.to_back_btn_top {
+  margin-bottom: 20px;
+}
+body {
+  padding-bottom: 30px;
+}
+.font_small{
+  font-size: x-small;
+  display: inline-block;
+  margin-left: 10px;
+}
+.font_red {
+  color: #811727;
+}
+.logo {
+  /* font-family: "Sickness"; */
+  /* font-family: "Arial Black"; */
+  /* font-style: italic; */
+}
+.navbar-inverse .navbar-brand.logo_header {
+  height: 47px;
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 0px;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+  background: #173b1e;
+}
+.navbar-default .navbar-brand.logo_header {
+  height: 47px;
+  color: #555;
+  font-size: 28px;
+  letter-spacing: 0px;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+  background: #fff;
+}
+
+.form-control {
+  font-size: 16px;
+}
+.form-hidden {
+  display: none;
+}
+.form-group {
+}
+
+.container {
+  /* margin-top: 20px; */
+}
+
